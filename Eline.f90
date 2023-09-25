@@ -1,3 +1,4 @@
+!中性子星周りの四重極電場
 !グローバル変数
 module globals
     implicit none
@@ -41,7 +42,7 @@ contains
     end subroutine zp
 end module globals
 
-!双極子磁場(時間変化あり)
+!四重極電場(時間変化あり)
 module quadrupole
     use globals
     implicit none
@@ -94,7 +95,7 @@ contains
 
 end module quadrupole
 
-!双極子磁場(時間変化あり)への代入
+!四重極電場(時間変化あり)への代入
 module sub_quadrupole
     use globals
     use quadrupole
