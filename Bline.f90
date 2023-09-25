@@ -1,3 +1,4 @@
+!中性子星周りの双極子磁場
 !グローバル変数を指定するモジュール
 module globals
     implicit none
