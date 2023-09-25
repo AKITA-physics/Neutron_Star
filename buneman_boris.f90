@@ -1,4 +1,4 @@
-!新バージョン(成分分解)
+!強電磁場での放射減衰を考慮した運動方程式のブーネマンボリス法を用いた解法
 implicit none
 integer i,k,l,imax,iout
 real(8) t,gamma0
