@@ -1,3 +1,4 @@
+!中性子星周りでのプラズマ粒子の運動の解法
 !グローバル変数
 module globals
         implicit none
